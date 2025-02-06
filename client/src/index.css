@@ -1,5 +1,92 @@
 @import "tailwindcss";
 
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.pagination button {
+  width: 40px;
+  height: 40px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: transparent;
+  /* color: #eee;
+  border-color: #eee; */
+}
+
+.pagination button.active {
+  font-weight: 900;
+  border-color: #101010;
+  background: #255000;
+  color: #101010;
+}
+
+
+
+/* .pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.pagination li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.pagination li a {
+  text-decoration: none;
+  color: #337ab7;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.pagination li a:hover {
+  background-color: #337ab7;
+  color: #fff;
+}
+
+.pagination li.active a {
+  background-color: #337ab7;
+  color: #fff;
+}
+
+.pagination li.disabled a {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination li.break a {
+  color: #337ab7;
+  cursor: pointer;
+}
+
+.pagination li.next a, .pagination li.prev a {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.pagination li.next a:hover, .pagination li.prev a:hover {
+  background-color: #337ab7;
+  color: #fff;
+} */
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
