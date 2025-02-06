@@ -5,29 +5,50 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 1rem;
+  list-style: none;
 }
 
 .pagination button {
-  width: 40px;
-  height: 40px;
-  font-family: inherit;
+  width: 45px;
+  height: 45px;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 16px;
-  margin: 0 10px;
+  margin: 0 8px;
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.3s ease;
-  background: transparent;
-  /* color: #eee;
-  border-color: #eee; */
+  background: #dde1e7;
+  color: #4d3252;
+  border: none;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+
+.pagination button:hover {
+  background: #c5c9d3;
 }
 
 .pagination button.active {
   font-weight: 900;
-  border-color: #101010;
-  background: #255000;
-  color: #101010;
+  background: #6f6cde;
+  color: white;
+  box-shadow: inset -3px -3px 7px #ffffff73,
+    inset 3px 3px 5px rgba(94, 104, 121, 0.288);
 }
+
+.pagination button:first-child,
+.pagination button:last-child {
+  width: 120px;
+}
+
+.pagination button:first-child {
+  margin-right: 15px;
+}
+
+.pagination button:last-child {
+  margin-left: 15px;
+}
+
 
 
 

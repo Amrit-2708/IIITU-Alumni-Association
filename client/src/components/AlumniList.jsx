@@ -405,12 +405,7 @@ const Members = [
 ];
 
 const AlumniList = () => {
-  // const [currentPage, setCurrentPage] = useState(0);
-  // const itemsPerPage = 8;
 
-  // const handlePageClick = (event) => {
-  //   setCurrentPage(event.selected);
-  // };
 
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage, setPostsPerPage] = useState(8);
