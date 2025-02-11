@@ -1,5 +1,113 @@
 @import "tailwindcss";
 
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+  list-style: none;
+}
+
+.pagination button {
+  width: 45px;
+  height: 45px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #dde1e7;
+  color: #4d3252;
+  border: none;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+
+.pagination button:hover {
+  background: #c5c9d3;
+}
+
+.pagination button.active {
+  font-weight: 900;
+  background: #6f6cde;
+  color: white;
+  box-shadow: inset -3px -3px 7px #ffffff73,
+    inset 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+
+.pagination button:first-child,
+.pagination button:last-child {
+  width: 120px;
+}
+
+.pagination button:first-child {
+  margin-right: 15px;
+}
+
+.pagination button:last-child {
+  margin-left: 15px;
+}
+
+
+
+
+/* .pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.pagination li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.pagination li a {
+  text-decoration: none;
+  color: #337ab7;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.pagination li a:hover {
+  background-color: #337ab7;
+  color: #fff;
+}
+
+.pagination li.active a {
+  background-color: #337ab7;
+  color: #fff;
+}
+
+.pagination li.disabled a {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination li.break a {
+  color: #337ab7;
+  cursor: pointer;
+}
+
+.pagination li.next a, .pagination li.prev a {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.pagination li.next a:hover, .pagination li.prev a:hover {
+  background-color: #337ab7;
+  color: #fff;
+} */
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

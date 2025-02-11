@@ -1,6 +1,4 @@
 const Navbar = () => {
-
-
     return (
         <nav className="mx-auto max-w-8xl flex items-center justify-between p-6 lg:px-8 font-bold text-neutral-100 bg-blue-800">
             <div className="flex items-center">
