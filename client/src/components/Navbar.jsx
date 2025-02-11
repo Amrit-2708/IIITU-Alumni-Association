@@ -3,9 +3,10 @@ const Navbar = () => {
 
     return (
         <nav className="mx-auto max-w-8xl flex items-center justify-between p-6 lg:px-8 font-bold text-neutral-100 bg-blue-800">
-            <div className="container-fluid">
-                <a className="navbar-brand" href="/">
-                    IIITU
+            <div className="flex items-center">
+                <img src="https://iiitu.ac.in/Indian_Institute_of_Information_Technology,_Una_logo.png" width={80}></img>
+                <a className="navbar-brand ml-3 text-2xl" href="/">
+                    IIITU Alumni Association
                 </a>
             </div>
 
