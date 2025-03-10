@@ -3,6 +3,7 @@ import Homepage from './components/Homepage'
 import './App.css'
 import Navbar from './components/Navbar'
 import AlumniList  from './components/AlumniList'
+import Loginpage from './components/Loginpage'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Homepage />}></Route>
       <Route path='/list' element={<AlumniList />}></Route>
+      <Route path='/login' element={<Loginpage />}></Route>
     </Routes>
   </BrowserRouter>
   )

@@ -437,7 +437,7 @@ const AlumniList = () => {
               </div>
             </div>
 
-            <div className="pr-2 ">
+            <div className="pr-6">
               <h3 className="pt-2 text-xl font-semibold mt-7">{member.name}</h3>
               <p className="text-sm text-gray-500">{member.role}</p>
               <p className="text-gray-600 text-sm mt-2">{member.description}</p>
